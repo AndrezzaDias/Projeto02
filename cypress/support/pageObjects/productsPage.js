@@ -1,7 +1,7 @@
 class ProductsPage {
     // Obtém todos os itens listados no inventário
     getInventoryItems() {
-      return cy.get('.inventory_item');
+      return cy.get('.inventory_item')
     }
     
     // Adiciona o primeiro produto da lista ao carrinho
@@ -15,5 +15,5 @@ class ProductsPage {
     }
   }
   
-  export default ProductsPage;
+  export default ProductsPage
   

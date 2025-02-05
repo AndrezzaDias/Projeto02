@@ -15,7 +15,7 @@ class LoginPage {
   }
 
   // Captura e retorna a mensagem de erro caso o login falhe  
-  getErrorMessage() {
+  getErrorMessage() { 
     return cy.get('[data-test="error"]') 
   }
 
