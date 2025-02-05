@@ -10,6 +10,6 @@ describe('Testes de Produtos', () => {
   });
 
   it('Deve exibir os produtos corretamente', () => {
-    productsPage.getInventoryItems().should('have.length', 6);
+    productsPage.getInventoryItems().should('have.length', 6); // Verifica se há 6 produtos na tela
   });
 });

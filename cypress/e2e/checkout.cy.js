@@ -19,6 +19,6 @@ describe('Testes de Checkout', () => {
     cy.get('[data-test="checkout"]').click();
     checkoutPage.fillCheckoutForm('Andrezza', 'Dias', '12345');
     checkoutPage.submitCheckout();
-    checkoutPage.getConfirmationMessage();
+    checkoutPage.getConfirmationMessage(); // Verifica se a compra foi finalizada com sucesso
   });
 });
