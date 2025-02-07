@@ -75,16 +75,20 @@ PROJETO02/
 ### Cenário de Teste Utilizado na Automação
 
 **Testes de Login (`login.cy.js`)**
+
 ✅ Login com credenciais válidas  
 ❌ Tentativa de login com credenciais inválidas  
 
 **Testes de Produtos (`products.cy.js`)**
+
 📌 Verificar se a lista de produtos é exibida corretamente  
 
 **Testes de Carrinho (`cart.cy.js`)**
+
 🛒 Adicionar produto ao carrinho  
 🗑️ Remover produto do carrinho  
 
 **Testes de Checkout (`checkout.cy.js`)**
+
 ✅ Finalizar a compra com sucesso  
 
